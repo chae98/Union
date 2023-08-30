@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navi_new_posting"
+            android:title="새 글 작성"/>
+        <item
+            android:id="@+id/navi_my_posting"
+            android:title="내 작성글"/>
+        <item
+            android:id="@+id/navi_interest"
+            android:title="내 관심글"/>
+        <item
+            android:id="@+id/navi_profile"
+            android:title="내 정보"/>
+        <item
+            android:id="@+id/navi_logout"
+            android:title="로그아웃"/>
+
+    </group>
+
+</menu>

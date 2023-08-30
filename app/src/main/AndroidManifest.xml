@@ -13,8 +13,22 @@
         android:theme="@style/Theme.Union"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".PostDetail"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".findPassword" />
+        <activity android:name=".signIn" />
+        <activity android:name=".NewPosting" />
+        <activity android:name=".ProfilePage" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false"
+            android:label="@string/title_activity_main_list"
+            android:theme="@style/Theme.Union.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            tools:ignore="DuplicateActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

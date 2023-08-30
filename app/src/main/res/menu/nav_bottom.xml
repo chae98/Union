@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_bottom_all"
+        android:title="전체"
+        android:icon="@drawable/baseline_all_inclusive_24"/>
+    <item
+        android:id="@+id/nav_bottom_project"
+        android:title="프로젝트"/>
+    <item
+        android:id="@+id/nav_bottom_study"
+        android:title="스터디"/>
+
+</menu>
